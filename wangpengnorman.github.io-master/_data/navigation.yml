@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Research
+  url: /research/
+  excerpt: "Research"
+  image: research.jpg
+
+- title: Publication
+  url: /publication/
+  excerpt: "Publication"
+  image: publications.jpg
+
+- title: Contact
+  url: /contact/
+  excerpt: "Contact"
+  image: contact.jpg
