@@ -1,0 +1,27 @@
+[
+	{
+		"bookSourceName": "自制书源",//书源的名称
+		"bookSourceUrl": "https://www.qiushubang.com",//书源的原网站地址
+		"ruleSearchUrl": "https://www.qiushubang.com/modules/article/search.php?searchkey=searchKey|char=gb2312",//书源的搜索地址
+		"httpUserAgent": "",//浏览器标识，一般用不到
+		"ruleBookAuthor": "class.bookPhr@tag.d1@tag.dd@text#作者：",//书籍介绍页的作者
+		"ruleBookContent": "class.articleCon@tag.p!1",//单章节阅读界面的文本获取
+		"ruleBookName": "class.bookPhr@tag.h2@text",//书籍介绍页的书名
+		"ruleChapterList": "class.chapterCon@tag.ul@tag.li@tag.a",//总章节列表
+		"ruleChapterName": "text",//单章节名称
+		"ruleChapterUrl": "href",//章节页跳转地址
+		"ruleContentUrl": "",//单章节链接地址
+		"ruleCoverUrl": "class.bookImg@tag.img@src",//书籍页封面
+		"ruleFindUrl": "",//发现功能
+		"ruleIntroduce": "class.introCon@tag.p@text",//书籍页书籍介绍
+		"ruleSearchAuthor": "class.odd.1@text",//搜索结果页的作者
+		"ruleSearchCoverUrl": "",//搜索结果页的书封面
+		"ruleSearchKind": "",//搜索结果页的书籍分类
+		"ruleSearchLastChapter": "class.even.0@tag.a@text",//搜索结果页的最新章节
+		"ruleSearchList": "class.grid@tag.tr!0",//搜索结果页的书籍显示样式
+		"ruleSearchName": "class.odd.0@tag.a@text",//搜索结果页的书名
+		"ruleSearchNoteUrl": "class.odd.0@tag.a@href",//书籍页跳转链接
+		"enable": true,//是否启用书源
+		"serialNumber": 1//书源排序
+	  }
+]
